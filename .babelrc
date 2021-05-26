@@ -1,0 +1,10 @@
+//creamos un objeto donde vamos a anadir las configuraciones que acabamos de agregar
+  //En este caso los preced y los plugins que va a trabajar babel
+{
+    "presets":[
+        "@babel/preset-env"
+    ],
+    "plugins":[
+        "@babel/plugin-transform-runtime"
+    ]
+}
